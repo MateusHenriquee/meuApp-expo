@@ -25,8 +25,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#6a787d', 
   },
   logo: {
-    width: 100,
-    height: 100,
+    width: 150,
+    height: 150,
     marginBottom: 20,
     borderRadius: 50, // Deixa a imagem redonda
   },
