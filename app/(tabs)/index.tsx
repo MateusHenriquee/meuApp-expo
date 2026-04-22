@@ -1,21 +1,26 @@
 import { View, Text, StyleSheet, Image } from 'react-native';
+import { Button, Alert } from 'react-native';
 
 export default function Index() {
   return (
+    
     <View style={styles.container}>
+      
       {/* Exemplo de imagem da internet */}
       <Image 
   source={{ uri: 'https://preview.redd.it/o-lobo-pid%C3%A3o-parou-de-ser-alimentado-e-agora-ele-est%C3%A1-v0-dforrhwdmazc1.jpeg?width=250&format=pjpg&auto=webp&s=d6e8131e5a7329138114cf49a2f7374a1db32ee7' }} // Link de imagem aleatória
   style={styles.logo} 
 />
-
+ 
 
       <Text style={styles.textoGrito}>
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA EU N AGUENTO MAIS 🚀
+        
       </Text>
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
